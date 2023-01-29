@@ -1,0 +1,12 @@
+{
+  "name": "docker-creates-network",
+  "version": "1.0.0",
+  "description": "The app creates and deletes the network with the default driver (postgres, redis, rabbitmq) with right commands in Docker.",
+  "main": "docker-compose.yml",
+  "scripts": {
+    "start": "docker-compose up",
+    "end": "docker-compose down"
+  },
+  "author": "Tengiz Putkaradze",
+  "license": "ISC"
+}
